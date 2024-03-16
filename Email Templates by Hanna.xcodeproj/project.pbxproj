@@ -14,6 +14,17 @@
 		BDF17AFB2BA5EFC800519389 /* Email_Templates_by_HannaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF17AFA2BA5EFC800519389 /* Email_Templates_by_HannaTests.swift */; };
 		BDF17B052BA5EFC800519389 /* Email_Templates_by_HannaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF17B042BA5EFC800519389 /* Email_Templates_by_HannaUITests.swift */; };
 		BDF17B072BA5EFC800519389 /* Email_Templates_by_HannaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF17B062BA5EFC800519389 /* Email_Templates_by_HannaUITestsLaunchTests.swift */; };
+		BDF17B1A2BA5F04D00519389 /* MailExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF17B192BA5F04D00519389 /* MailExtension.swift */; };
+		BDF17B1C2BA5F04D00519389 /* ContentBlocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF17B1B2BA5F04D00519389 /* ContentBlocker.swift */; };
+		BDF17B1E2BA5F04D00519389 /* ContentBlockerRules.json in Resources */ = {isa = PBXBuildFile; fileRef = BDF17B1D2BA5F04D00519389 /* ContentBlockerRules.json */; };
+		BDF17B202BA5F04D00519389 /* MessageActionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF17B1F2BA5F04D00519389 /* MessageActionHandler.swift */; };
+		BDF17B222BA5F04D00519389 /* ComposeSessionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF17B212BA5F04D00519389 /* ComposeSessionHandler.swift */; };
+		BDF17B242BA5F04D00519389 /* ComposeSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF17B232BA5F04D00519389 /* ComposeSessionViewController.swift */; };
+		BDF17B262BA5F04D00519389 /* ComposeSessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF17B252BA5F04D00519389 /* ComposeSessionViewController.xib */; };
+		BDF17B282BA5F04D00519389 /* MessageSecurityHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF17B272BA5F04D00519389 /* MessageSecurityHandler.swift */; };
+		BDF17B2A2BA5F04D00519389 /* MessageSecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF17B292BA5F04D00519389 /* MessageSecurityViewController.swift */; };
+		BDF17B2C2BA5F04D00519389 /* MessageSecurityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF17B2B2BA5F04D00519389 /* MessageSecurityViewController.xib */; };
+		BDF17B312BA5F04D00519389 /* Email Templates by Hanna extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BDF17B172BA5F04D00519389 /* Email Templates by Hanna extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +42,28 @@
 			remoteGlobalIDString = BDF17AE42BA5EFC500519389;
 			remoteInfo = "Email Templates by Hanna";
 		};
+		BDF17B2F2BA5F04D00519389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF17ADD2BA5EFC500519389 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF17B162BA5F04D00519389;
+			remoteInfo = "Email Templates by Hanna extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BDF17B352BA5F04D00519389 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BDF17B312BA5F04D00519389 /* Email Templates by Hanna extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BDF17AE52BA5EFC500519389 /* Email Templates by Hanna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Email Templates by Hanna.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +77,19 @@
 		BDF17B002BA5EFC800519389 /* Email Templates by HannaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Email Templates by HannaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF17B042BA5EFC800519389 /* Email_Templates_by_HannaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email_Templates_by_HannaUITests.swift; sourceTree = "<group>"; };
 		BDF17B062BA5EFC800519389 /* Email_Templates_by_HannaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email_Templates_by_HannaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDF17B172BA5F04D00519389 /* Email Templates by Hanna extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Email Templates by Hanna extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF17B192BA5F04D00519389 /* MailExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailExtension.swift; sourceTree = "<group>"; };
+		BDF17B1B2BA5F04D00519389 /* ContentBlocker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlocker.swift; sourceTree = "<group>"; };
+		BDF17B1D2BA5F04D00519389 /* ContentBlockerRules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ContentBlockerRules.json; sourceTree = "<group>"; };
+		BDF17B1F2BA5F04D00519389 /* MessageActionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageActionHandler.swift; sourceTree = "<group>"; };
+		BDF17B212BA5F04D00519389 /* ComposeSessionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeSessionHandler.swift; sourceTree = "<group>"; };
+		BDF17B232BA5F04D00519389 /* ComposeSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeSessionViewController.swift; sourceTree = "<group>"; };
+		BDF17B252BA5F04D00519389 /* ComposeSessionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComposeSessionViewController.xib; sourceTree = "<group>"; };
+		BDF17B272BA5F04D00519389 /* MessageSecurityHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSecurityHandler.swift; sourceTree = "<group>"; };
+		BDF17B292BA5F04D00519389 /* MessageSecurityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSecurityViewController.swift; sourceTree = "<group>"; };
+		BDF17B2B2BA5F04D00519389 /* MessageSecurityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageSecurityViewController.xib; sourceTree = "<group>"; };
+		BDF17B2D2BA5F04D00519389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF17B2E2BA5F04D00519389 /* Email_Templates_by_Hanna_extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Email_Templates_by_Hanna_extension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +114,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BDF17B142BA5F04D00519389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +130,7 @@
 				BDF17AE72BA5EFC500519389 /* Email Templates by Hanna */,
 				BDF17AF92BA5EFC800519389 /* Email Templates by HannaTests */,
 				BDF17B032BA5EFC800519389 /* Email Templates by HannaUITests */,
+				BDF17B182BA5F04D00519389 /* Email Templates by Hanna extension */,
 				BDF17AE62BA5EFC500519389 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +141,7 @@
 				BDF17AE52BA5EFC500519389 /* Email Templates by Hanna.app */,
 				BDF17AF62BA5EFC800519389 /* Email Templates by HannaTests.xctest */,
 				BDF17B002BA5EFC800519389 /* Email Templates by HannaUITests.xctest */,
+				BDF17B172BA5F04D00519389 /* Email Templates by Hanna extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,6 +183,25 @@
 			path = "Email Templates by HannaUITests";
 			sourceTree = "<group>";
 		};
+		BDF17B182BA5F04D00519389 /* Email Templates by Hanna extension */ = {
+			isa = PBXGroup;
+			children = (
+				BDF17B192BA5F04D00519389 /* MailExtension.swift */,
+				BDF17B1B2BA5F04D00519389 /* ContentBlocker.swift */,
+				BDF17B1D2BA5F04D00519389 /* ContentBlockerRules.json */,
+				BDF17B1F2BA5F04D00519389 /* MessageActionHandler.swift */,
+				BDF17B212BA5F04D00519389 /* ComposeSessionHandler.swift */,
+				BDF17B232BA5F04D00519389 /* ComposeSessionViewController.swift */,
+				BDF17B252BA5F04D00519389 /* ComposeSessionViewController.xib */,
+				BDF17B272BA5F04D00519389 /* MessageSecurityHandler.swift */,
+				BDF17B292BA5F04D00519389 /* MessageSecurityViewController.swift */,
+				BDF17B2B2BA5F04D00519389 /* MessageSecurityViewController.xib */,
+				BDF17B2D2BA5F04D00519389 /* Info.plist */,
+				BDF17B2E2BA5F04D00519389 /* Email_Templates_by_Hanna_extension.entitlements */,
+			);
+			path = "Email Templates by Hanna extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,10 +212,12 @@
 				BDF17AE12BA5EFC500519389 /* Sources */,
 				BDF17AE22BA5EFC500519389 /* Frameworks */,
 				BDF17AE32BA5EFC500519389 /* Resources */,
+				BDF17B352BA5F04D00519389 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BDF17B302BA5F04D00519389 /* PBXTargetDependency */,
 			);
 			name = "Email Templates by Hanna";
 			productName = "Email Templates by Hanna";
@@ -185,6 +260,23 @@
 			productReference = BDF17B002BA5EFC800519389 /* Email Templates by HannaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		BDF17B162BA5F04D00519389 /* Email Templates by Hanna extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF17B322BA5F04D00519389 /* Build configuration list for PBXNativeTarget "Email Templates by Hanna extension" */;
+			buildPhases = (
+				BDF17B132BA5F04D00519389 /* Sources */,
+				BDF17B142BA5F04D00519389 /* Frameworks */,
+				BDF17B152BA5F04D00519389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Email Templates by Hanna extension";
+			productName = "Email Templates by Hanna extension";
+			productReference = BDF17B172BA5F04D00519389 /* Email Templates by Hanna extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +298,9 @@
 						CreatedOnToolsVersion = 15.2;
 						TestTargetID = BDF17AE42BA5EFC500519389;
 					};
+					BDF17B162BA5F04D00519389 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 				};
 			};
 			buildConfigurationList = BDF17AE02BA5EFC500519389 /* Build configuration list for PBXProject "Email Templates by Hanna" */;
@@ -224,6 +319,7 @@
 				BDF17AE42BA5EFC500519389 /* Email Templates by Hanna */,
 				BDF17AF52BA5EFC800519389 /* Email Templates by HannaTests */,
 				BDF17AFF2BA5EFC800519389 /* Email Templates by HannaUITests */,
+				BDF17B162BA5F04D00519389 /* Email Templates by Hanna extension */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +345,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF17B152BA5F04D00519389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF17B262BA5F04D00519389 /* ComposeSessionViewController.xib in Resources */,
+				BDF17B1E2BA5F04D00519389 /* ContentBlockerRules.json in Resources */,
+				BDF17B2C2BA5F04D00519389 /* MessageSecurityViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +387,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BDF17B132BA5F04D00519389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF17B1C2BA5F04D00519389 /* ContentBlocker.swift in Sources */,
+				BDF17B202BA5F04D00519389 /* MessageActionHandler.swift in Sources */,
+				BDF17B282BA5F04D00519389 /* MessageSecurityHandler.swift in Sources */,
+				BDF17B242BA5F04D00519389 /* ComposeSessionViewController.swift in Sources */,
+				BDF17B222BA5F04D00519389 /* ComposeSessionHandler.swift in Sources */,
+				BDF17B2A2BA5F04D00519389 /* MessageSecurityViewController.swift in Sources */,
+				BDF17B1A2BA5F04D00519389 /* MailExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +413,11 @@
 			isa = PBXTargetDependency;
 			target = BDF17AE42BA5EFC500519389 /* Email Templates by Hanna */;
 			targetProxy = BDF17B012BA5EFC800519389 /* PBXContainerItemProxy */;
+		};
+		BDF17B302BA5F04D00519389 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDF17B162BA5F04D00519389 /* Email Templates by Hanna extension */;
+			targetProxy = BDF17B2F2BA5F04D00519389 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -418,6 +543,7 @@
 		BDF17B0B2BA5EFC800519389 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Email Templates by Hanna/Email_Templates_by_Hanna.entitlements";
@@ -445,6 +571,7 @@
 		BDF17B0C2BA5EFC800519389 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Email Templates by Hanna/Email_Templates_by_Hanna.entitlements";
@@ -541,6 +668,60 @@
 			};
 			name = Release;
 		};
+		BDF17B332BA5F04D00519389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Email Templates by Hanna extension/Email_Templates_by_Hanna_extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UA385N825;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Email Templates by Hanna extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Email Templates by Hanna extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannaskairipa.Email-Templates-by-Hanna.Email-Templates-by-Hanna-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BDF17B342BA5F04D00519389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Email Templates by Hanna extension/Email_Templates_by_Hanna_extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UA385N825;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Email Templates by Hanna extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Email Templates by Hanna extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannaskairipa.Email-Templates-by-Hanna.Email-Templates-by-Hanna-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -576,6 +757,15 @@
 			buildConfigurations = (
 				BDF17B112BA5EFC800519389 /* Debug */,
 				BDF17B122BA5EFC800519389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF17B322BA5F04D00519389 /* Build configuration list for PBXNativeTarget "Email Templates by Hanna extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF17B332BA5F04D00519389 /* Debug */,
+				BDF17B342BA5F04D00519389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
