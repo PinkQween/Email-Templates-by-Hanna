@@ -12,6 +12,7 @@
 		BDE9DA3B2BA5F47600AC8062 /* ComposeSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE9DA3A2BA5F47600AC8062 /* ComposeSessionViewController.swift */; };
 		BDE9DA3D2BA5F47600AC8062 /* ComposeSessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDE9DA3C2BA5F47600AC8062 /* ComposeSessionViewController.xib */; };
 		BDE9DA422BA5F47600AC8062 /* Email Templates by Hanna extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BDE9DA342BA5F47600AC8062 /* Email Templates by Hanna extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BDE9DA472BA6259600AC8062 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE9DA462BA6259500AC8062 /* DataManager.swift */; };
 		BDF17AE92BA5EFC500519389 /* Email_Templates_by_HannaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF17AE82BA5EFC500519389 /* Email_Templates_by_HannaApp.swift */; };
 		BDF17AEB2BA5EFC500519389 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF17AEA2BA5EFC500519389 /* ContentView.swift */; };
 		BDF17AED2BA5EFC800519389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF17AEC2BA5EFC800519389 /* Assets.xcassets */; };
@@ -67,6 +68,7 @@
 		BDE9DA3C2BA5F47600AC8062 /* ComposeSessionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComposeSessionViewController.xib; sourceTree = "<group>"; };
 		BDE9DA3E2BA5F47600AC8062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDE9DA3F2BA5F47600AC8062 /* Email_Templates_by_Hanna_extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Email_Templates_by_Hanna_extension.entitlements; sourceTree = "<group>"; };
+		BDE9DA462BA6259500AC8062 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		BDF17AE52BA5EFC500519389 /* Email Templates by Hanna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Email Templates by Hanna.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF17AE82BA5EFC500519389 /* Email_Templates_by_HannaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email_Templates_by_HannaApp.swift; sourceTree = "<group>"; };
 		BDF17AEA2BA5EFC500519389 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				BDE9DA362BA5F47600AC8062 /* MailExtension.swift */,
 				BDE9DA382BA5F47600AC8062 /* ComposeSessionHandler.swift */,
 				BDE9DA3A2BA5F47600AC8062 /* ComposeSessionViewController.swift */,
+				BDE9DA462BA6259500AC8062 /* DataManager.swift */,
 				BDE9DA3C2BA5F47600AC8062 /* ComposeSessionViewController.xib */,
 				BDE9DA3E2BA5F47600AC8062 /* Info.plist */,
 				BDE9DA3F2BA5F47600AC8062 /* Email_Templates_by_Hanna_extension.entitlements */,
@@ -346,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDE9DA392BA5F47600AC8062 /* ComposeSessionHandler.swift in Sources */,
+				BDE9DA472BA6259600AC8062 /* DataManager.swift in Sources */,
 				BDE9DA3B2BA5F47600AC8062 /* ComposeSessionViewController.swift in Sources */,
 				BDE9DA372BA5F47600AC8062 /* MailExtension.swift in Sources */,
 			);
